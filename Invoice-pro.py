@@ -6,7 +6,8 @@ import os, io, json, re
 import fitz
 from dotenv import load_dotenv
 load_dotenv()
-api_key = os.getenv('Google_API_KEY')
+# api_key = os.getenv('Google_API_KEY')
+api_key = st.secrets('Google_API_KEY')
 
 # Initialize Gemini AI client
 genai.configure(api_key=api_key)
