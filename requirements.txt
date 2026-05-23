@@ -1,6 +1,9 @@
 python-dotenv
 pymupdf
 google-generativeai
+google-genai
 pillow
 streamlit
 pandas
+matplotlib
+openpyxl
